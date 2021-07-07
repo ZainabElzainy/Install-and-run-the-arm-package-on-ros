@@ -1,4 +1,4 @@
-# Install-and-run-the-arm-package-on-ros
+# Install-and-run-the-arm-package-on-ROS
  ### To install Install  arm package on ROS melodic
  1. download VirtualBox 
 https://www.virtualbox.org/wiki/Downloads 
