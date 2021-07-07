@@ -34,7 +34,7 @@ $ rosrun robot_arm_pkg joint_states_to_gazebo.py
 
 **in RViZ**
  control on arm by joint_state_publisher box
-change the the base_joint ,shoulder ,elbow and wrist  as **RVIZ1.MP4 file**
+change the the base_joint ,shoulder ,elbow and wrist  as **RViz1.MP4 file**
 **then ctrl+s (save changes)**
 
 1. **then** to see final the changes in GAZEBO and RViz 
@@ -43,4 +43,4 @@ $ roslaunch moveit_pkg demo_gazebo.launch
 **in RViz** you can do changes to  see changes in the arm before and after throgh the start box and goal box as **RViz_befor_after.jpg file** 
 then enter Plan to see before Execute or Enter Plan and Execute
  
-**finally**, you can see the changes in GAZEBO and RViz as **RVIZ2.MP4  and  GAZEBO+RViz.MP4 files**
+**finally**, you can see the changes in GAZEBO and RViz as **RViz2.MP4 , RViz3.mp4  and GAZEBO+RViz.MP4 files**
