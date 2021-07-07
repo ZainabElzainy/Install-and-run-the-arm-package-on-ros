@@ -5,9 +5,9 @@ https://www.virtualbox.org/wiki/Downloads
 
 1. download ubuntu-18.04.5-desktop-amd64.iso.torrent  https://releases.ubuntu.com/18.04/
 1. create the virtual machine
-1. Install ROS melodic following step http://wiki.ros.org/melodic/Installation/Ubuntu
+1. Install ROS melodic following  steps **here** http://wiki.ros.org/melodic/Installation/Ubuntu
 1. open the terminal 
-1. Create a workspace by using catkin_make as **workspace1png.png and workspace2.png files** or follow the step **here** http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+1. Create a workspace by using catkin_make as **workspace1png.png and workspace2.png files** or follow the steps **here** http://wiki.ros.org/catkin/Tutorials/create_a_workspace
  **do not forget**configure catkin_make with Python 3  By writing this command $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 1. enter $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 1. enter $ source ~/.bashrc
