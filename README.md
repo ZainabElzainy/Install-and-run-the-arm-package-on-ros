@@ -8,7 +8,7 @@ https://www.virtualbox.org/wiki/Downloads
 1. Install ROS melodic following step http://wiki.ros.org/melodic/Installation/Ubuntu
 1. open the terminal 
 1. Create a workspace by using catkin_make as workspace1.png and workspace2.png files or follow the step here http://wiki.ros.org/catkin/Tutorials/create_a_workspace
-1. don't forger configure catkin_make with Python 3  By writing this command $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+ **do not forget**configure catkin_make with Python 3  By writing this command $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 1. enter $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 1. enter $ source ~/.bashrc
 1. - Add the “arduino_robot_arm” package to “src” folder
