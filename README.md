@@ -41,6 +41,6 @@ change the the base_joint ,shoulder ,elbow and wrist  as **RVIZ1.MP4 file**
 $ roslaunch moveit_pkg demo_gazebo.launch
  
 **in RViz** you can do changes to  see changes in the arm before and after throgh the start box and goal box as **RViz_befor_after.jpg file** 
-then enter plan to see before execute or enter plan and execute
+then enter Plan to see before Execute or Enter Plan and Execute
  
 **finally**, you can see the changes in GAZEBO and RViz as **RVIZ2.MP4  and  GAZEBO+RViz.MP4 files**
