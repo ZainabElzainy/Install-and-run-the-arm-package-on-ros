@@ -7,7 +7,7 @@ https://www.virtualbox.org/wiki/Downloads
 1. create the virtual machine
 1. Install ROS melodic following step http://wiki.ros.org/melodic/Installation/Ubuntu
 1. open the terminal 
-1. Create a workspace by using catkin_make as workspace1.png and workspace2.png files or follow the step here http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+1. Create a workspace by using catkin_make as **workspace1png.png and workspace2.png files** or follow the step **here** http://wiki.ros.org/catkin/Tutorials/create_a_workspace
  **do not forget**configure catkin_make with Python 3  By writing this command $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 1. enter $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 1. enter $ source ~/.bashrc
@@ -34,13 +34,13 @@ $ rosrun robot_arm_pkg joint_states_to_gazebo.py
 
 **in RViZ**
  control on arm by joint_state_publisher box
-change the the base_joint ,shoulder ,elbow and wrist
-ctrl+s (save changes)
+change the the base_joint ,shoulder ,elbow and wrist  as **RVIZ1.MP4 file**
+**then ctrl+s (save changes)**
 
-1. **then** to see final the changes in gazebo and RViz 
+1. **then** to see final the changes in GAZEBO and RViz 
 $ roslaunch moveit_pkg demo_gazebo.launch
  
-**in RViz** you can enter plan to see before execute
-then enter plan and execute
+**in RViz** you can do changes to  see changes in the arm before and after throgh the start box and goal box as **RViz_befor_after.jpg file** 
+then enter plan to see before execute or enter plan and execute
  
-**finally **, you can see the changes in gazebo and RViz 
+**finally**, you can see the changes in GAZEBO and RViz as **RVIZ2.MP4  and  GAZEBO+RViz.MP4 files**
